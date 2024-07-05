@@ -72,7 +72,7 @@ void SLL_RemoveNode(Node** Head, Node* Remove)
     {
         Node* Current = *Head;//헤드를 현재 노드로 설정
         while( Current != NULL && Current->NextNode != Remove )
-        //현재 노드가 NULL이 나이고 현재 노드의 다음 노드가 지울 노드가 아닌 경우
+        //현재 노드가 NULL이 아니고 현재 노드의 다음 노드가 지울 노드가 아닌 경우
         {
             Current = Current->NextNode;//현재 노드를 현재 노드의 다음 노드로 설정
         }
